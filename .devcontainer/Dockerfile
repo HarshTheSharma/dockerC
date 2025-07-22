@@ -7,8 +7,6 @@ RUN apt update && apt install -y \
     clang-format \
     && rm -rf /var/lib/apt/lists/*
 
-RUN useradd -ms /bin/bash dev
-USER dev
-WORKDIR /home/dev
+WORKDIR /root
 
-CMD [ "bash" ]
+CMD ["bash"]
