@@ -18,9 +18,8 @@
     {
       "label": "Set includePath folder",
       "type": "shell",
-      "command": "node",
+      "command": "${workspaceFolder}/.vscode/updateIncludePath.sh",
       "args": [
-        "${workspaceFolder}/.vscode/update_include_path.js",
         "${input:folderName}"
       ],
       "problemMatcher": []
@@ -30,7 +29,7 @@
     {
       "id": "folderName",
       "type": "promptString",
-      "description": "Enter folder name"
+      "description": "Enter folder name (blank for all)"
     }
   ]
 }

@@ -24,5 +24,6 @@
       }
     }
   },
-  "remoteUser": "dev"
+  "remoteUser": "dev",
+  "postCreateCommand": "chmod +x .vscode/updateIncludePath.sh"
 }
