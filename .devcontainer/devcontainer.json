@@ -13,6 +13,12 @@
         "batyan-soft.fast-tasks"
       ],
       "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash"
+          }
+        },
         "editor.formatOnSave": true,
         "C_Cpp.clang_format_style": "file",
         "C_Cpp.clang_format_fallbackStyle": "none",
