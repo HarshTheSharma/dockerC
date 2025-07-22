@@ -30,6 +30,6 @@
       }
     }
   },
-  "remoteUser": "dev",
+  "remoteUser": "root",
   "postCreateCommand": "chmod +x .vscode/updateIncludePath.sh"
 }
