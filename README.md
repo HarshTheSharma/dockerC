@@ -1,2 +1,2 @@
 # cppdocker
-docker config for cpp using gcc 
+docker config for cpp/c using g++/gcc 
