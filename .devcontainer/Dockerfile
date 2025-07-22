@@ -4,8 +4,7 @@ RUN apt update && apt install -y \
     build-essential \
     gdb \
     git \
-    cmake \
-    vim \
+    clang-format \
     && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -ms /bin/bash devuser

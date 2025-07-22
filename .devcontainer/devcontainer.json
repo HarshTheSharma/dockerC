@@ -1,10 +1,25 @@
 {
-  "name": "Cpp Dev",
+  "name": "C/C++ Dev Container",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "extensions": [
-    "ms-vscode.cpptools"
-  ],
-  "remoteUser": "devuser"
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.makefile-tools",
+        "ms-vscode.cpptools"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "C_Cpp.clang_format_style": "file",
+        "C_Cpp.clang_format_fallbackStyle": "none",
+        "editor.codeActionsOnSave": {
+          "source.fixAll": "always"
+        },
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.detectIndentation": false
+      }
+    }
+  },
+  "remoteUser": "vscode"
 }
