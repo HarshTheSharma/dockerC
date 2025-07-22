@@ -1,7 +1,7 @@
 {
   "name": "Cpp Dev",
   "build": {
-    "dockerfile": "../Dockerfile"
+    "dockerfile": "Dockerfile"
   },
   "extensions": [
     "ms-vscode.cpptools"
