@@ -9,7 +9,8 @@
         "ms-vscode.makefile-tools",
         "ms-vscode.cpptools",
         "ms-azuretools.vscode-docker",
-        "ms-vscode-remote.remote-containers"
+        "ms-vscode-remote.remote-containers",
+        "batyan-soft.fast-tasks"
       ],
       "settings": {
         "editor.formatOnSave": true,
